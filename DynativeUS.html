@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynative US | Technology • Innovation • Business</title>
+<meta name="description" content="Dynative US connects innovative technology, intellectual property and business opportunities between the United States and Korea.">
+<style>
+:root{
+  --navy:#0b1f3a;
+  --blue:#1769aa;
+  --light:#f4f7fb;
+  --text:#1b2733;
+  --muted:#64748b;
+  --white:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.6;background:white}
+header{
+  position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);
+  border-bottom:1px solid #e5eaf0;backdrop-filter:blur(8px)
+}
+.nav{
+  max-width:1120px;margin:auto;padding:18px 24px;display:flex;
+  justify-content:space-between;align-items:center
+}
+.logo{font-size:24px;font-weight:800;letter-spacing:1px;color:var(--navy)}
+.logo span{color:var(--blue)}
+nav a{margin-left:24px;text-decoration:none;color:#334155;font-size:14px;font-weight:600}
+nav a:hover{color:var(--blue)}
+.hero{
+  min-height:650px;display:flex;align-items:center;
+  background:linear-gradient(135deg,#071a33 0%,#103b67 55%,#1769aa 100%);
+  color:white;position:relative;overflow:hidden
+}
+.hero:after{
+  content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(255,255,255,.13);
+  border-radius:50%;right:-120px;top:80px;box-shadow:0 0 0 70px rgba(255,255,255,.035),0 0 0 140px rgba(255,255,255,.025)
+}
+.hero-inner{max-width:1120px;width:100%;margin:auto;padding:90px 24px;position:relative;z-index:2}
+.eyebrow{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#a9d5ff;font-weight:700;margin-bottom:22px}
+h1{font-size:clamp(44px,7vw,78px);line-height:1.02;letter-spacing:-2px;margin-bottom:20px}
+.tagline{font-size:clamp(20px,3vw,30px);font-weight:300;margin-bottom:22px}
+.hero p{max-width:690px;color:#d8e8f7;font-size:18px;margin-bottom:34px}
+.buttons a{display:inline-block;padding:13px 22px;border-radius:7px;text-decoration:none;font-weight:700;margin-right:10px}
+.primary{background:white;color:var(--navy)}
+.secondary{border:1px solid rgba(255,255,255,.45);color:white}
+section{padding:85px 24px}
+.container{max-width:1120px;margin:auto}
+.section-title{font-size:38px;color:var(--navy);margin-bottom:12px}
+.section-lead{max-width:720px;color:var(--muted);margin-bottom:42px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{
+  border:1px solid #e2e8f0;border-radius:12px;padding:30px;background:white;
+  box-shadow:0 8px 25px rgba(15,23,42,.05);transition:.2s
+}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(15,23,42,.09)}
+.icon{font-size:30px;margin-bottom:18px}
+.card h3{color:var(--navy);margin-bottom:10px;font-size:20px}
+.card p{color:var(--muted);font-size:15px}
+.alt{background:var(--light)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about-box{background:var(--navy);color:white;border-radius:16px;padding:42px}
+.about-box h3{font-size:25px;margin-bottom:14px}
+.about-box p{color:#d7e5f3}
+.list{list-style:none;margin-top:20px}
+.list li{padding:10px 0;border-bottom:1px solid #e5eaf0}
+.list li:before{content:"✓";color:var(--blue);font-weight:bold;margin-right:10px}
+.contact{
+  background:linear-gradient(135deg,#0b1f3a,#153e68);color:white;text-align:center
+}
+.contact h2{font-size:42px;margin-bottom:15px}
+.contact p{color:#d7e5f3;max-width:650px;margin:0 auto 28px}
+.contact .email{
+  display:inline-block;color:white;text-decoration:none;border:1px solid rgba(255,255,255,.4);
+  padding:13px 24px;border-radius:7px;font-weight:700
+}
+footer{background:#061426;color:#9fb1c5;text-align:center;padding:25px;font-size:13px}
+@media(max-width:760px){
+  nav a{display:none}
+  .hero{min-height:580px}
+  .grid,.about{grid-template-columns:1fr}
+  section{padding:65px 20px}
+  .section-title{font-size:32px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">DYNATIVE <span>US</span></div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#technology">Technology</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Technology • Innovation • Business</div>
+    <h1>DYNATIVE US</h1>
+    <div class="tagline">Connecting Technology, Innovation and Business.</div>
+    <p>
+      Dynative US helps connect innovative technologies, intellectual property
+      and business opportunities between the United States and Korea.
+    </p>
+    <div class="buttons">
+      <a class="primary" href="#services">Our Services</a>
+      <a class="secondary" href="#contact">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-lead">
+      Practical technology and business support for companies, startups,
+      researchers and technology owners.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="icon">◈</div>
+        <h3>Technology Consulting</h3>
+        <p>Technical analysis, technology assessment and strategic consulting in emerging technology fields.</p>
+      </div>
+      <div class="card">
+        <div class="icon">⌬</div>
+        <h3>AI & Semiconductor</h3>
+        <p>Business and technology opportunities involving AI, semiconductors, sensors and advanced systems.</p>
+      </div>
+      <div class="card">
+        <div class="icon">◇</div>
+        <h3>Patent Commercialization</h3>
+        <p>Exploring licensing, commercialization and business opportunities for promising intellectual property.</p>
+      </div>
+      <div class="card">
+        <div class="icon">⇄</div>
+        <h3>U.S.–Korea Business</h3>
+        <p>Connecting technology, products and business opportunities across the U.S. and Korean markets.</p>
+      </div>
+      <div class="card">
+        <div class="icon">◎</div>
+        <h3>Startup Advisory</h3>
+        <p>Technology-oriented guidance for startups, partnerships, fundraising and market development.</p>
+      </div>
+      <div class="card">
+        <div class="icon">△</div>
+        <h3>Technology Sourcing</h3>
+        <p>Identifying technologies, products and potential partners for cross-border business opportunities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="technology" class="alt">
+  <div class="container">
+    <h2 class="section-title">Technology & Intellectual Property</h2>
+    <p class="section-lead">
+      Dynative US focuses on turning technical knowledge and intellectual property
+      into practical business opportunities.
+    </p>
+    <div class="grid">
+      <div class="card"><h3>Semiconductor</h3><p>Advanced semiconductor technologies, devices and applications.</p></div>
+      <div class="card"><h3>AI & Intelligent Systems</h3><p>AI-enabled technologies, systems and emerging applications.</p></div>
+      <div class="card"><h3>Sensors</h3><p>Sensor technologies and applications involving physical and environmental signals.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about">
+    <div>
+      <h2 class="section-title">About Dynative US</h2>
+      <p class="section-lead">
+        Dynative US is an independent technology and business consulting company
+        based in the United States, with a focus on connecting technical expertise,
+        intellectual property and commercial opportunities.
+      </p>
+      <ul class="list">
+        <li>U.S.–Korea technology collaboration</li>
+        <li>Technology evaluation and consulting</li>
+        <li>Patent and intellectual-property commercialization</li>
+        <li>Emerging technology business development</li>
+      </ul>
+    </div>
+    <div class="about-box">
+      <h3>From Technology to Opportunity.</h3>
+      <p>
+        We look for practical ways to connect good technology with the people,
+        organizations and markets that can create value from it.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Let's Connect</h2>
+    <p>
+      For technology consulting, intellectual-property opportunities,
+      U.S.–Korea business collaboration or other inquiries, please contact us.
+    </p>
+    <a class="email" href="mailto:max4gmoon@gmail.com">max4gmoon@gmail.com</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  © 2026 Dynative US. All rights reserved.
+</footer>
+
+</body>
+</html>
